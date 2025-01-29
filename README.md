@@ -1,5 +1,3 @@
-##Install
-
 You'll need Node version 18 or higher, with NPM version 7 or higher to complete this guide. You can check your local versions like this:
 ```
 node --version && npm --version

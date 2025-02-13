@@ -7,7 +7,7 @@ async function main() {
     const client = await create();
 
     //log into account & replace with your email
-    const account = await client.login('jamie@storacha.network')
+    const account = await client.login('YOUR_EMAIL_HERE@storacha.network')
 
     // Wait for a payment plan with a 1-second polling interval and 15-minute timeout
     await account.plan.wait();
